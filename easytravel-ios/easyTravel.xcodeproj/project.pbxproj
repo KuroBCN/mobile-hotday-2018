@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2DF60B671FC85573007148A1 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DF60B651FC85573007148A1 /* Launch Screen.storyboard */; };
+		2DF60B691FC85BAD007148A1 /* easyTravel_Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DF60B681FC85BAD007148A1 /* easyTravel_Logo.png */; };
+		2DF60B6C1FCBE7EF007148A1 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF60B6B1FCBE7EF007148A1 /* UIColor.swift */; };
+		6808F4091F27117B00C53D1F /* DTWKWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6808F4081F27117B00C53D1F /* DTWKWebViewController.swift */; };
+		6808F40B1F271B5900C53D1F /* DTMasterWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6808F40A1F271B5900C53D1F /* DTMasterWebViewController.swift */; };
+		680CBCDA1F1C938600A7863C /* DTMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680CBCD91F1C938600A7863C /* DTMasterViewController.swift */; };
+		68290CB01F1FA3C2002757AB /* loading.html in Resources */ = {isa = PBXBuildFile; fileRef = 68290CAF1F1FA3C2002757AB /* loading.html */; };
+		68290CB21F20A636002757AB /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68290CB11F20A636002757AB /* StringExtension.swift */; };
+		68687BF91F15153900942D26 /* DTLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68687BF81F15153900942D26 /* DTLoginViewController.swift */; };
+		68687BFB1F15FE0F00942D26 /* DTConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68687BFA1F15FE0F00942D26 /* DTConstants.swift */; };
+		68687BFD1F16397600942D26 /* DTSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68687BFC1F16397600942D26 /* DTSettingsViewController.swift */; };
+		68687BFF1F1652B700942D26 /* DTJourneyDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68687BFE1F1652B700942D26 /* DTJourneyDetailsViewController.swift */; };
+		68687C031F17A05F00942D26 /* DTSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68687C021F17A05F00942D26 /* DTSearchViewController.swift */; };
+		6886CEF51F14DC1A006D4DC1 /* DTWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6886CEF41F14DC1A006D4DC1 /* DTWebViewController.swift */; };
+		68EC20F41F1CA2AC009B4403 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EC20F31F1CA2AC009B4403 /* AppDelegate.swift */; };
+		C42E853C14A21B8F00154831 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C42E853B14A21B8F00154831 /* UIKit.framework */; };
+		C42E854614A21B9000154831 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C42E854414A21B9000154831 /* InfoPlist.strings */; };
+		C42E854F14A21B9000154831 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C42E854D14A21B9000154831 /* MainStoryboard_iPhone.storyboard */; };
+		C42E855214A21B9000154831 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C42E855014A21B9000154831 /* MainStoryboard_iPad.storyboard */; };
+		C42E859814A222A200154831 /* eT_114.png in Resources */ = {isa = PBXBuildFile; fileRef = C42E859714A222A200154831 /* eT_114.png */; };
+		C42E859A14A222A800154831 /* eT_57.png in Resources */ = {isa = PBXBuildFile; fileRef = C42E859914A222A800154831 /* eT_57.png */; };
+		C42E859C14A222B100154831 /* eT_72.png in Resources */ = {isa = PBXBuildFile; fileRef = C42E859B14A222B100154831 /* eT_72.png */; };
+		C43728F817F190840059874C /* special_offers.html in Resources */ = {isa = PBXBuildFile; fileRef = C43728F717F190840059874C /* special_offers.html */; };
+		C43728FA17F1925F0059874C /* easyTravel.css in Resources */ = {isa = PBXBuildFile; fileRef = C43728F917F1925F0059874C /* easyTravel.css */; };
+		C44B883D14B3187C00325E02 /* SearchResultCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C44B883B14B3187C00325E02 /* SearchResultCell.xib */; };
+		C45D501814B1C0E1009691FE /* NSMutableArray+StackAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C45D501714B1C0E1009691FE /* NSMutableArray+StackAdditions.m */; };
+		C45D501C14B1E8E9009691FE /* DTJourney.m in Sources */ = {isa = PBXBuildFile; fileRef = C45D501B14B1E8E9009691FE /* DTJourney.m */; };
+		C45D501F14B1E9B5009691FE /* DTLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = C45D501E14B1E9B5009691FE /* DTLocation.m */; };
+		C45D502314B204D1009691FE /* NSDataAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C45D502214B204D1009691FE /* NSDataAdditions.m */; };
+		C4A5957414AD9A5B00CB240A /* KeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A5957314AD9A5B00CB240A /* KeychainItemWrapper.m */; };
+		C4A84C0B14AB4FBC006F85C7 /* DTUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A84C0A14AB4FBC006F85C7 /* DTUtils.m */; };
+		C4B71162166374B800E2A170 /* eT_144.png in Resources */ = {isa = PBXBuildFile; fileRef = C4B71161166374B800E2A170 /* eT_144.png */; };
+		C4B8C92214B57FB500A2F70C /* DTTenant.m in Sources */ = {isa = PBXBuildFile; fileRef = C4B8C92114B57FB500A2F70C /* DTTenant.m */; };
+		C4B8C92714B5E0D200A2F70C /* missingimage.png in Resources */ = {isa = PBXBuildFile; fileRef = C4B8C92614B5E0D200A2F70C /* missingimage.png */; };
+		C4DA421014A361B9006429F9 /* DTRestUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C4DA420F14A361B9006429F9 /* DTRestUtils.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		68290CAE1F1F414E002757AB /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2DF60B661FC85573007148A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = "en.lproj/Launch Screen.storyboard"; sourceTree = "<group>"; };
+		2DF60B681FC85BAD007148A1 /* easyTravel_Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = easyTravel_Logo.png; sourceTree = SOURCE_ROOT; };
+		2DF60B6B1FCBE7EF007148A1 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		6808F4081F27117B00C53D1F /* DTWKWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DTWKWebViewController.swift; sourceTree = "<group>"; };
+		6808F40A1F271B5900C53D1F /* DTMasterWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DTMasterWebViewController.swift; sourceTree = "<group>"; };
+		680CBCD91F1C938600A7863C /* DTMasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DTMasterViewController.swift; sourceTree = "<group>"; };
+		68290CAF1F1FA3C2002757AB /* loading.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = loading.html; sourceTree = "<group>"; };
+		68290CB11F20A636002757AB /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		68687BF81F15153900942D26 /* DTLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DTLoginViewController.swift; sourceTree = "<group>"; };
+		68687BFA1F15FE0F00942D26 /* DTConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DTConstants.swift; sourceTree = "<group>"; };
+		68687BFC1F16397600942D26 /* DTSettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DTSettingsViewController.swift; sourceTree = "<group>"; };
+		68687BFE1F1652B700942D26 /* DTJourneyDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DTJourneyDetailsViewController.swift; sourceTree = "<group>"; };
+		68687C021F17A05F00942D26 /* DTSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DTSearchViewController.swift; sourceTree = "<group>"; };
+		6886CEF11F14DB2E006D4DC1 /* easyTravel-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "easyTravel-Bridging-Header.h"; sourceTree = "<group>"; };
+		6886CEF41F14DC1A006D4DC1 /* DTWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DTWebViewController.swift; sourceTree = "<group>"; };
+		68EC20F31F1CA2AC009B4403 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C42E853714A21B8F00154831 /* easyTravel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = easyTravel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C42E853B14A21B8F00154831 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C42E854314A21B8F00154831 /* easyTravel-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "easyTravel-Info.plist"; sourceTree = "<group>"; };
+		C42E854514A21B9000154831 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C42E854E14A21B9000154831 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		C42E855114A21B9000154831 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		C42E859714A222A200154831 /* eT_114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = eT_114.png; path = ../eT_114.png; sourceTree = "<group>"; };
+		C42E859914A222A800154831 /* eT_57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = eT_57.png; path = ../eT_57.png; sourceTree = "<group>"; };
+		C42E859B14A222B100154831 /* eT_72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = eT_72.png; path = ../eT_72.png; sourceTree = "<group>"; };
+		C43728F717F190840059874C /* special_offers.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; lineEnding = 2; path = special_offers.html; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.html; };
+		C43728F917F1925F0059874C /* easyTravel.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = easyTravel.css; sourceTree = "<group>"; };
+		C44B883C14B3187C00325E02 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SearchResultCell.xib; sourceTree = "<group>"; };
+		C458E2E414A9F8890024F281 /* DTResultHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTResultHandler.h; sourceTree = "<group>"; };
+		C45D501614B1C0E1009691FE /* NSMutableArray+StackAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = "NSMutableArray+StackAdditions.h"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		C45D501714B1C0E1009691FE /* NSMutableArray+StackAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = "NSMutableArray+StackAdditions.m"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		C45D501A14B1E8E9009691FE /* DTJourney.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTJourney.h; sourceTree = "<group>"; };
+		C45D501B14B1E8E9009691FE /* DTJourney.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTJourney.m; sourceTree = "<group>"; };
+		C45D501D14B1E9B5009691FE /* DTLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTLocation.h; sourceTree = "<group>"; };
+		C45D501E14B1E9B5009691FE /* DTLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTLocation.m; sourceTree = "<group>"; };
+		C45D502114B204D1009691FE /* NSDataAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDataAdditions.h; sourceTree = "<group>"; };
+		C45D502214B204D1009691FE /* NSDataAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDataAdditions.m; sourceTree = "<group>"; };
+		C4A5957214AD9A5B00CB240A /* KeychainItemWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainItemWrapper.h; sourceTree = "<group>"; };
+		C4A5957314AD9A5B00CB240A /* KeychainItemWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainItemWrapper.m; sourceTree = "<group>"; };
+		C4A84C0914AB4FBC006F85C7 /* DTUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTUtils.h; sourceTree = "<group>"; };
+		C4A84C0A14AB4FBC006F85C7 /* DTUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = DTUtils.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		C4B71161166374B800E2A170 /* eT_144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eT_144.png; sourceTree = SOURCE_ROOT; };
+		C4B8C92014B57FB500A2F70C /* DTTenant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTTenant.h; sourceTree = "<group>"; };
+		C4B8C92114B57FB500A2F70C /* DTTenant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTTenant.m; sourceTree = "<group>"; };
+		C4B8C92614B5E0D200A2F70C /* missingimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = missingimage.png; sourceTree = SOURCE_ROOT; };
+		C4DA420E14A361B8006429F9 /* DTRestUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = DTRestUtils.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		C4DA420F14A361B9006429F9 /* DTRestUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = DTRestUtils.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C42E853414A21B8F00154831 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C42E853C14A21B8F00154831 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2DF60B6A1FCBE7B4007148A1 /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				2DF60B6B1FCBE7EF007148A1 /* UIColor.swift */,
+			);
+			name = extension;
+			sourceTree = "<group>";
+		};
+		C42E852C14A21B8F00154831 = {
+			isa = PBXGroup;
+			children = (
+				C42E854114A21B8F00154831 /* easyTravel */,
+				C42E853A14A21B8F00154831 /* Frameworks */,
+				C42E853814A21B8F00154831 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C42E853814A21B8F00154831 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C42E853714A21B8F00154831 /* easyTravel.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C42E853A14A21B8F00154831 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C42E853B14A21B8F00154831 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C42E854114A21B8F00154831 /* easyTravel */ = {
+			isa = PBXGroup;
+			children = (
+				68EC20F31F1CA2AC009B4403 /* AppDelegate.swift */,
+				68687BF81F15153900942D26 /* DTLoginViewController.swift */,
+				680CBCD91F1C938600A7863C /* DTMasterViewController.swift */,
+				68687BFC1F16397600942D26 /* DTSettingsViewController.swift */,
+				2DF60B6A1FCBE7B4007148A1 /* extension */,
+				C42E85AB14A229BB00154831 /* images */,
+				2DF60B651FC85573007148A1 /* Launch Screen.storyboard */,
+				C42E855014A21B9000154831 /* MainStoryboard_iPad.storyboard */,
+				C42E854D14A21B9000154831 /* MainStoryboard_iPhone.storyboard */,
+				C4F1BE7E14AB627200F6311D /* search */,
+				C42E854214A21B8F00154831 /* Supporting Files */,
+				C4B8C91F14B57F6C00A2F70C /* types */,
+				C4F1BE8114AB62C200F6311D /* utils */,
+				C453472B177C1C0A00EE1209 /* webview */,
+			);
+			path = easyTravel;
+			sourceTree = "<group>";
+		};
+		C42E854214A21B8F00154831 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C42E854314A21B8F00154831 /* easyTravel-Info.plist */,
+				C42E854414A21B9000154831 /* InfoPlist.strings */,
+				6886CEF11F14DB2E006D4DC1 /* easyTravel-Bridging-Header.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C42E85AB14A229BB00154831 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				2DF60B681FC85BAD007148A1 /* easyTravel_Logo.png */,
+				C42E859914A222A800154831 /* eT_57.png */,
+				C42E859B14A222B100154831 /* eT_72.png */,
+				C42E859714A222A200154831 /* eT_114.png */,
+				C4B71161166374B800E2A170 /* eT_144.png */,
+				C4B8C92614B5E0D200A2F70C /* missingimage.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		C453472B177C1C0A00EE1209 /* webview */ = {
+			isa = PBXGroup;
+			children = (
+				6808F40A1F271B5900C53D1F /* DTMasterWebViewController.swift */,
+				6808F4081F27117B00C53D1F /* DTWKWebViewController.swift */,
+				6886CEF41F14DC1A006D4DC1 /* DTWebViewController.swift */,
+				C43728F917F1925F0059874C /* easyTravel.css */,
+				C43728F717F190840059874C /* special_offers.html */,
+				68290CAF1F1FA3C2002757AB /* loading.html */,
+			);
+			name = webview;
+			sourceTree = "<group>";
+		};
+		C4B8C91F14B57F6C00A2F70C /* types */ = {
+			isa = PBXGroup;
+			children = (
+				C45D501A14B1E8E9009691FE /* DTJourney.h */,
+				C45D501B14B1E8E9009691FE /* DTJourney.m */,
+				C45D501D14B1E9B5009691FE /* DTLocation.h */,
+				C45D501E14B1E9B5009691FE /* DTLocation.m */,
+				C4B8C92014B57FB500A2F70C /* DTTenant.h */,
+				C4B8C92114B57FB500A2F70C /* DTTenant.m */,
+				C458E2E414A9F8890024F281 /* DTResultHandler.h */,
+			);
+			name = types;
+			sourceTree = "<group>";
+		};
+		C4F1BE7E14AB627200F6311D /* search */ = {
+			isa = PBXGroup;
+			children = (
+				68687BFE1F1652B700942D26 /* DTJourneyDetailsViewController.swift */,
+				68687C021F17A05F00942D26 /* DTSearchViewController.swift */,
+				C44B883B14B3187C00325E02 /* SearchResultCell.xib */,
+			);
+			name = search;
+			sourceTree = "<group>";
+		};
+		C4F1BE8114AB62C200F6311D /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				C4DA420E14A361B8006429F9 /* DTRestUtils.h */,
+				C4DA420F14A361B9006429F9 /* DTRestUtils.m */,
+				C4A84C0914AB4FBC006F85C7 /* DTUtils.h */,
+				C4A84C0A14AB4FBC006F85C7 /* DTUtils.m */,
+				C4A5957214AD9A5B00CB240A /* KeychainItemWrapper.h */,
+				C4A5957314AD9A5B00CB240A /* KeychainItemWrapper.m */,
+				C45D502114B204D1009691FE /* NSDataAdditions.h */,
+				C45D502214B204D1009691FE /* NSDataAdditions.m */,
+				C45D501614B1C0E1009691FE /* NSMutableArray+StackAdditions.h */,
+				C45D501714B1C0E1009691FE /* NSMutableArray+StackAdditions.m */,
+				68687BFA1F15FE0F00942D26 /* DTConstants.swift */,
+				68290CB11F20A636002757AB /* StringExtension.swift */,
+			);
+			name = utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C42E853614A21B8F00154831 /* easyTravel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C42E855B14A21B9000154831 /* Build configuration list for PBXNativeTarget "easyTravel" */;
+			buildPhases = (
+				2D97B1AF1D880ECF00261266 /* ShellScript */,
+				C42E853314A21B8F00154831 /* Sources */,
+				C42E853414A21B8F00154831 /* Frameworks */,
+				C42E853514A21B8F00154831 /* Resources */,
+				68290CAE1F1F414E002757AB /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = easyTravel;
+			productName = easyTravel;
+			productReference = C42E853714A21B8F00154831 /* easyTravel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C42E852E14A21B8F00154831 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Dynatrace;
+				TargetAttributes = {
+					C42E853614A21B8F00154831 = {
+						DevelopmentTeam = 42VAZF9HC9;
+						LastSwiftMigration = 0900;
+					};
+				};
+			};
+			buildConfigurationList = C42E853114A21B8F00154831 /* Build configuration list for PBXProject "easyTravel" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C42E852C14A21B8F00154831;
+			productRefGroup = C42E853814A21B8F00154831 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C42E853614A21B8F00154831 /* easyTravel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C42E853514A21B8F00154831 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C42E854614A21B9000154831 /* InfoPlist.strings in Resources */,
+				C42E854F14A21B9000154831 /* MainStoryboard_iPhone.storyboard in Resources */,
+				C42E855214A21B9000154831 /* MainStoryboard_iPad.storyboard in Resources */,
+				C42E859814A222A200154831 /* eT_114.png in Resources */,
+				C42E859A14A222A800154831 /* eT_57.png in Resources */,
+				2DF60B691FC85BAD007148A1 /* easyTravel_Logo.png in Resources */,
+				C43728FA17F1925F0059874C /* easyTravel.css in Resources */,
+				C42E859C14A222B100154831 /* eT_72.png in Resources */,
+				68290CB01F1FA3C2002757AB /* loading.html in Resources */,
+				C44B883D14B3187C00325E02 /* SearchResultCell.xib in Resources */,
+				C4B8C92714B5E0D200A2F70C /* missingimage.png in Resources */,
+				C43728F817F190840059874C /* special_offers.html in Resources */,
+				2DF60B671FC85573007148A1 /* Launch Screen.storyboard in Resources */,
+				C4B71162166374B800E2A170 /* eT_144.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D97B1AF1D880ECF00261266 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/bash\nmajorMinor=$(/usr/libexec/Plistbuddy -c \"Print :CFBundleShortVersionString\" \"$INFOPLIST_FILE\")\nrevisionNumber=$(date -u \"+%y\")\nbuildNumber=$(date -u \"+%m%d\")\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $majorMinor.$revisionNumber.$buildNumber\" \"$INFOPLIST_FILE\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C42E853314A21B8F00154831 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				680CBCDA1F1C938600A7863C /* DTMasterViewController.swift in Sources */,
+				2DF60B6C1FCBE7EF007148A1 /* UIColor.swift in Sources */,
+				68687BFD1F16397600942D26 /* DTSettingsViewController.swift in Sources */,
+				68EC20F41F1CA2AC009B4403 /* AppDelegate.swift in Sources */,
+				C4DA421014A361B9006429F9 /* DTRestUtils.m in Sources */,
+				C4A84C0B14AB4FBC006F85C7 /* DTUtils.m in Sources */,
+				68687BF91F15153900942D26 /* DTLoginViewController.swift in Sources */,
+				6808F4091F27117B00C53D1F /* DTWKWebViewController.swift in Sources */,
+				C4A5957414AD9A5B00CB240A /* KeychainItemWrapper.m in Sources */,
+				C45D501814B1C0E1009691FE /* NSMutableArray+StackAdditions.m in Sources */,
+				68687C031F17A05F00942D26 /* DTSearchViewController.swift in Sources */,
+				C45D501C14B1E8E9009691FE /* DTJourney.m in Sources */,
+				C45D501F14B1E9B5009691FE /* DTLocation.m in Sources */,
+				68687BFF1F1652B700942D26 /* DTJourneyDetailsViewController.swift in Sources */,
+				6886CEF51F14DC1A006D4DC1 /* DTWebViewController.swift in Sources */,
+				68290CB21F20A636002757AB /* StringExtension.swift in Sources */,
+				68687BFB1F15FE0F00942D26 /* DTConstants.swift in Sources */,
+				C45D502314B204D1009691FE /* NSDataAdditions.m in Sources */,
+				C4B8C92214B57FB500A2F70C /* DTTenant.m in Sources */,
+				6808F40B1F271B5900C53D1F /* DTMasterWebViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2DF60B651FC85573007148A1 /* Launch Screen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DF60B661FC85573007148A1 /* en */,
+			);
+			name = "Launch Screen.storyboard";
+			sourceTree = "<group>";
+		};
+		C42E854414A21B9000154831 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C42E854514A21B9000154831 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C42E854D14A21B9000154831 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C42E854E14A21B9000154831 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		C42E855014A21B9000154831 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C42E855114A21B9000154831 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		C44B883B14B3187C00325E02 /* SearchResultCell.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C44B883C14B3187C00325E02 /* en */,
+			);
+			name = SearchResultCell.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C42E855914A21B9000154831 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_RESOURCE_RULES_PATH = "$(SDKROOT)/ResourceRules.plist";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "42170977-1345-424b-a01b-29cfa60a5761";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Debug;
+		};
+		C42E855A14A21B9000154831 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Dynatrace LLC";
+				CODE_SIGN_RESOURCE_RULES_PATH = "$(SDKROOT)/ResourceRules.plist";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "235ea17d-3d0c-41fc-9877-7aead32e6fe8";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C42E855C14A21B9000154831 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 42VAZF9HC9;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "easyTravel/easyTravel-Prefix.pch";
+				INFOPLIST_FILE = "easyTravel/easyTravel-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dynatrace.demoapps.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "easyTravel Development";
+				SWIFT_OBJC_BRIDGING_HEADER = "easyTravel/easyTravel-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+				VALID_ARCHS = "arm64 armv7 armv7s x86_64";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C42E855D14A21B9000154831 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Dynatrace LLC";
+				DEVELOPMENT_TEAM = 42VAZF9HC9;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "easyTravel/easyTravel-Prefix.pch";
+				INFOPLIST_FILE = "easyTravel/easyTravel-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dynatrace.demoapps.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "235ea17d-3d0c-41fc-9877-7aead32e6fe8";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "235ea17d-3d0c-41fc-9877-7aead32e6fe8";
+				PROVISIONING_PROFILE_SPECIFIER = "easyTravel Enterprise Distribution";
+				SWIFT_OBJC_BRIDGING_HEADER = "easyTravel/easyTravel-Bridging-Header.h";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C42E853114A21B8F00154831 /* Build configuration list for PBXProject "easyTravel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C42E855914A21B9000154831 /* Debug */,
+				C42E855A14A21B9000154831 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C42E855B14A21B9000154831 /* Build configuration list for PBXNativeTarget "easyTravel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C42E855C14A21B9000154831 /* Debug */,
+				C42E855D14A21B9000154831 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C42E852E14A21B8F00154831 /* Project object */;
+}

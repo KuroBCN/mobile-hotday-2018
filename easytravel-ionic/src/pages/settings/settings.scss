@@ -1,0 +1,21 @@
+page-settings {
+
+	.button-bottom{
+		width: 90% !important;
+		margin: auto !important;
+	}
+
+	.footer-bottom{
+		bottom: 10px !important;
+	}
+
+	.footer-md::before{
+		display: none;
+	}
+
+	ion-label[fixed] {
+		min-width: 50px;
+		width: 50px;
+		flex: 0 0 0px;
+	}
+}

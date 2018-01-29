@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="appName">EasyTravel</string>
+    <string name="appShortDescription">Mobile Booking Software</string>
+    <string name="easyTravelLogo">easyTravel logo</string>
+
+    // Menu Strings
+    <string name="menuSearch">Search</string>
+    <string name="menuUser">User Account</string>
+    <string name="menuOffers">Special Offers</string>
+    <string name="menuGroupOther">Other</string>
+    <string name="menuContact">Contact</string>
+    <string name="menuTerms">Terms of Use</string>
+    <string name="menuPrivacy">Privacy Policy</string>
+    <string name="menuSettings">Settings</string>
+    <string name="flushEvents">Flush Events - dT</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    // Search Screen
+    <string name="searchDestination">Enter trip destination</string>
+    <string name="searchFrom">FROM</string>
+    <string name="searchTo">TO</string>
+    <string name="searchButton">SEARCH</string>
+    <string name="suggestionDescription">Here are suggestions for your next destination. Click on them to copy them to the destination textfield.</string>
+    <string name="resultMessage">No results found</string>
+
+    // Journey Detail
+    <string name="journeyPictureDescription">Picture of the journey</string>
+    <string name="journeySampleDescription">This is the description of the journey. This is the description of the journey. This is the description of the journey.</string>
+    <string name="journeyPriceDetails">Price details</string>
+    <string name="journeyAdultsNumber">Adults (1)</string>
+    <string name="journeyKidsNumber">Kids (0)</string>
+    <string name="journeyFlightPrice">Flight price (Round-trip)</string>
+    <string name="journeyHotelPrice">Hotel price</string>
+    <string name="journeyTaxesFees">Taxes and fees</string>
+    <string name="journeyTotalPrice">Total price</string>
+    <string name="journeyButtonBook">Book Journey</string>
+
+    // Settings
+    <string name="settingsHostSettings">Host settings</string>
+    <string name="settingsHost">Host:</string>
+    <string name="settingsPort">Port:</string>
+    <string name="settingsADK">ADK:</string>
+    <string name="settingsEventSettings">Event settings</string>
+    <string name="settingsCrashOnLogin">Crash on login</string>
+    <string name="settingsEasyTravelNotReachable">EasyTravel not reachable</string>
+    <string name="settingsErrorOnBooking">Errors on search &amp; Booking</string>
+    <string name="settingsADKSettings">ADK settings</string>
+    <string name="settingsADKDescription">&lt;empty>: send data to dynaTrace Agent of easyTravel Frontend &lt;host>:&lt;port>: send data to different dynaTrace Agent</string>
+    <string name="settingsSaveButton">Save</string>
+
+    // User
+    <string name="userDescription">Enter your credentials to be able to interact with the server.</string>
+    <string name="userName">User</string>
+    <string name="userPassword">Password</string>
+    <string name="userButtonLogin">Login</string>
+    <string name="userDefaultUsername">hainer</string>
+    <string name="userDefaultPassword">hainer</string>
+
+    // Other
+
+    <!-- RUM config -->
+    <string name="RUM_app_name">easyTravel for Android</string>
+    <string name="RUM_ServerHost">127.0.0.1:8080</string>
+    <string name="RUM_PurgeHourLimit">12</string>
+    <string name="RUM_SessionSuspendMaxMinutes">20</string>
+    <string name="RUM_CommMaxRetries">3</string>
+    <string name="RUM_CommTimeout">60</string>
+    <string name="RUM_CommRetryDelay">60</string>
+    <string name="RUM_DontUseHttps">1</string>
+    <string name="RUM_AllowAnyCert">0</string>
+    <string name="CPWR_DiagMode">1</string>
+    <string name="empty"></string>
+
+</resources>

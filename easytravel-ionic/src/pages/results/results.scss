@@ -1,0 +1,13 @@
+page-results {
+
+	// Icons have not the same size and will lead to different spaces
+	.item [item-left] {
+		width: 30px;
+	}
+
+	// Android Fix - Android uses too much margin in list with icon
+	.item-md ion-icon[item-left] + .item-inner, .item-md ion-icon[item-left] + .item-input {
+		margin-left: 10px;
+	}
+
+}

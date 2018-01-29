@@ -1,0 +1,15 @@
+page-user {
+
+	.img-circular{
+		background-image: url('../assets/images/face.jpg');
+	}
+
+  ion-list-header.item h2 {
+    text-align: center;
+    margin: 20px 0 10px;
+  }
+
+  .footer-md::before{
+		display: none;
+	}
+}

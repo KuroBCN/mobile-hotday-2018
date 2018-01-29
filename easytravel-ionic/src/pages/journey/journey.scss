@@ -1,0 +1,25 @@
+page-journey {
+
+	.footer-bottom{
+		bottom: 10px !important;
+	}
+
+	.button-bottom{
+		width: 90% !important;
+		margin: auto !important;
+	}
+
+	.scroll-content{
+		margin-bottom: 50px;
+		padding-bottom: 0px;
+	}
+
+	ion-slides {
+		height: unset;
+	}
+
+	.footer-md::before {
+		height: 0px;
+	}
+
+}
