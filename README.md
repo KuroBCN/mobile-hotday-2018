@@ -1,5 +1,5 @@
 # Mobile Performance Management with Dynatrace
-In this repository you'll find everything you need for the hands-on training session at Dynatrace Perform Conference 2018 in Las Vegas.
+In this repository you'll find everything you need for the hands-on training session at Dynatrace Perform Conference 2018 in Las Vegas. Here are the slides: [01-Slides.pdf](https://github.com/Dynatrace/mobile-hotday-2018/raw/master/doc/01-Slides.pdf)
 
 # Prerequisites
 The following prerequisites should be prepared before the training. 
